@@ -5,6 +5,7 @@ import Weather from "./components/Weather";
 import CorrentWeather from "./components/CorrentWeather";
 
 const App =()=> {
+
   return (
     <div style={{
       backgroundImage: `url(${backgroundImg})`,
@@ -13,7 +14,8 @@ const App =()=> {
     }} className=" min-w-full min-h-screen">
      <Search/>
      <CorrentWeather/>
-     {/* <Weather/> */}
+
+     <Weather/>
     </div>
   );
 }
